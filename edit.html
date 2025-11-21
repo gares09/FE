@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Edit Post — Project Gagal</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="top-nav">
+    <div class="logo">Project Gagal</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="search.html">Search</a>
+      <a href="message.html">Message</a>
+    </nav>
+    <div class="auth">
+      <button class="login" onclick="location.href='login.html'">Log in</button>
+      <button class="signup" onclick="location.href='register.html'">Sign up</button>
+    </div>
+  </header>
+
+  <!-- FORM EDIT -->
+  <main class="center-wrapper">
+    <div class="form-card">
+      <h2 class="title">Edit Post</h2>
+      <p class="subtitle">Perbarui postinganmu agar lebih lengkap dan bermanfaat untuk pembaca lainnya.</p>
+
+      <form id="edit-form" class="form-stack">
+        <label>Title</label>
+        <input name="title" required />
+
+        <label>Category</label>
+        <input name="category" />
+
+        <label>Excerpt</label>
+        <input name="excerpt" />
+
+        <label>Content</label>
+        <textarea name="content" required style="min-height:160px"></textarea>
+
+        <div class="btn-row">
+          <a class="btn-ghost" href="dashboard.html">Batal</a>
+          <button class="btn-primary" type="submit">Simpan</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <footer class="footer">
+    Dokumentasi kegagalan IT — belajarlah dari bug • <a href="contact.html">Contact</a>
+  </footer>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>

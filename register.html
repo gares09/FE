@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Register — Project Gagal</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <!-- HEADER BAR SEPERTI DESAIN PERTAMA -->
+  <header class="top-nav">
+  <div class="brand">PROJECT GAGAL — PELAJARAN BERHASIL</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="categories.html">Categories</a>
+    <a href="archive.html">Archive</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="auth">
+    <button class="login" onclick="location.href='login.html'">Log in</button>
+    <button class="signup" onclick="location.href='register.html'">Sign up</button>
+  </div>
+</header>
+
+  <!-- MAIN FORM -->
+  <main class="center-wrapper">
+    <div class="form-card">
+      <h2 class="title">Register</h2>
+      <p class="subtitle">Buat akun barumu dan mulai membagikan perjalanan projectmu.</p>
+
+      <form id="register-form" class="form-stack">
+        <label>Nama</label>
+        <input name="name" type="text" required />
+
+        <label>Email</label>
+        <input name="email" type="email" required />
+
+        <label>Password</label>
+        <input name="password" type="password" required />
+
+        <button class="btn-primary" type="submit">Daftar</button>
+      </form>
+
+      <p class="hint">Sudah punya akun? <a href="login.html">Masuk di sini</a></p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    Blog dokumentasi kegagalan project — untuk pembelajaran • <a href="contact.html">Contact</a>
+  </footer>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>

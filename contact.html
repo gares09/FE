@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Project Gagal</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="top-nav">
+    <div class="logo">Project Gagal</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="search.html">Search</a>
+      <a href="message.html">Message</a>
+    </nav>
+    <div id="nav-auth"></div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="center-wrapper" style="max-width:700px;">
+    <div class="big-card" style="margin-top:24px;">
+      <h2 class="title">Contact</h2>
+
+      <form id="contact-form" class="form-gap" style="margin-top:8px;">
+        <label>Nama</label>
+        <input name="name" type="text" placeholder="Nama anda" />
+
+        <label>Email</label>
+        <input name="email" type="text" placeholder="email@contoh.com" />
+
+        <label>Pesan</label>
+        <textarea name="message" placeholder="Tinggalkan pesan..."></textarea>
+
+        <div class="right-row" style="margin-top:16px;">
+          <button class="btn-primary" type="submit">Kirim</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <footer class="footer">
+    Hubungi untuk kolaborasi • submission artikel • kerja sama riset teknologi
+  </footer>
+
+  <script>
+    document.getElementById("contact-form").addEventListener("submit", (e)=>{
+      e.preventDefault();
+      alert("Terima kasih! Pesan anda sudah terkirim (form ini masih demo ✨)");
+      e.target.reset();
+    });
+  </script>
+</body>
+</html>

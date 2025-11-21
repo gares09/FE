@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Login — Project Gagal</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="top-nav">
+    <div class="logo">Project Gagal</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="search.html">Search</a>
+      <a href="message.html">Message</a>
+    </nav>
+    <div class="auth">
+      <button class="login" onclick="location.href='login.html'">Log in</button>
+      <button class="signup" onclick="location.href='register.html'">Sign up</button>
+    </div>
+  </header>
+
+  <!-- LOGIN FORM -->
+  <main class="center-wrapper">
+    <div class="form-card">
+      <h2 class="title">Login</h2>
+      <p class="subtitle">Masuk ke akunmu dan lanjutkan perjalanan projectmu.</p>
+
+      <form id="login-form" class="form-stack">
+        <label>Email</label>
+        <input name="email" type="email" required />
+
+        <label>Password</label>
+        <input name="password" type="password" required />
+
+        <button class="btn-primary" type="submit">Login</button>
+      </form>
+
+      <p class="hint">Belum punya akun? <a href="register.html">Daftar sekarang</a></p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    Dokumentasi kegagalan IT — belajarlah dari bug • <a href="contact.html">Contact</a>
+  </footer>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>

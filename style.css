@@ -1,0 +1,172 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f5f7ff;
+  color: #2c2d3a;
+  line-height: 1.55;
+}
+
+/* -------------------------------------------------------------
+   TOP NAVIGATION (untuk semua halaman)
+------------------------------------------------------------- */
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 48px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,.08);
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.top-nav nav a {
+  margin: 0 16px;
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+}
+
+/* tombol login / signup */
+.top-nav .auth button {
+  margin-left: 10px;
+  padding: 8px 18px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.login { background: #e7e9ff; }
+.signup { background: #616bff; color: white; }
+
+/* -------------------------------------------------------------
+   BRAND (untuk header lama)
+------------------------------------------------------------- */
+.header .brand {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111;
+  padding: 12px 0;
+}
+
+/* -------------------------------------------------------------
+   UNIVERSAL CONTAINER
+------------------------------------------------------------- */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+/* -------------------------------------------------------------
+   CARD
+------------------------------------------------------------- */
+.card {
+  background: white;
+  padding: 24px 28px;
+  border-radius: 18px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.08);
+  margin-top: 20px;
+}
+
+/* -------------------------------------------------------------
+   BUTTON
+------------------------------------------------------------- */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  background: #616bff;
+  color: white;
+  font-weight: 600;
+  transition: .18s;
+}
+
+.btn:hover {
+  background: #4a56ea;
+}
+
+/* -------------------------------------------------------------
+   TEXT
+------------------------------------------------------------- */
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+.muted {
+  color: #61677c;
+  font-size: 15px;
+}
+
+/* -------------------------------------------------------------
+   LIST
+------------------------------------------------------------- */
+ul {
+  margin-top: 8px;
+  padding-left: 22px;
+}
+
+li {
+  margin: 4px 0;
+}
+
+/* -------------------------------------------------------------
+   GRID / SECTION (categories dan archive)
+------------------------------------------------------------- */
+.categories {
+  width: 88%;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.cat {
+  background: white;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.08);
+}
+
+/* -------------------------------------------------------------
+   SEARCH / LIST BLOG
+------------------------------------------------------------- */
+.search-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.search-item {
+  background: white;
+  padding: 14px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.06);
+}
+
+/* -------------------------------------------------------------
+   FOOTER
+------------------------------------------------------------- */
+.footer {
+  text-align: center;
+  padding: 28px;
+  font-size: 0.9rem;
+  margin-top: 46px;
+  color: #6f7490;
+}
+.top-nav .brand, 
+.top-nav .logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #333;
+}

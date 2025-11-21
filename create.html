@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Create Post — Project Gagal</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="top-nav">
+    <div class="logo">Project Gagal</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="search.html">Search</a>
+      <a href="message.html">Message</a>
+    </nav>
+    <div id="nav-auth"></div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="center-wrapper" style="max-width:750px;">
+    <div class="big-card" style="margin-top:24px;">
+      <h2 class="title">Create Post</h2>
+
+      <form id="create-form" class="form-gap">
+        <label>Title</label>
+        <input name="title" required />
+
+        <label>Category</label>
+        <input name="category" />
+
+        <label>Excerpt</label>
+        <input name="excerpt" />
+
+        <label>Content</label>
+        <textarea name="content" required></textarea>
+
+        <div class="right-row" style="margin-top:16px;">
+          <a class="btn-ghost" href="dashboard.html">Batal</a>
+          <button class="btn-primary" type="submit">Publish</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <footer class="footer">
+    Dokumentasi kegagalan IT — belajarlah dari bug • <a href="contact.html">Contact</a>
+  </footer>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>
