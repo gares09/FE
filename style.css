@@ -33,11 +33,11 @@ body {
 /* Brand / Logo */
 .top-nav .brand,
 .top-nav .logo {
-  font-size: 1.2rem;       /* lebih kecil dari sebelumnya */
+  font-size: 1.2rem;       
   font-weight: 700;
   color: #333;
-  text-transform: none;    /* tidak semua huruf besar */
-  letter-spacing: 0;       /* jarak huruf normal */
+  text-transform: none;    
+  letter-spacing: 0;      
 }
 
 /* Navigation links */
